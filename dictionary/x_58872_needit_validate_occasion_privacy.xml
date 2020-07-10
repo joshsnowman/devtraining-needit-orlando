@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Validate Occasion Privacy" max_length="40" name="x_58872_needit_validate_occasion_privacy" type="collection">
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="Occasion" max_length="32" name="occasion" type="string"/>
+        <element label="Occasion Date" max_length="40" name="occasion_date" type="glide_date"/>
+    </element>
+</database>
